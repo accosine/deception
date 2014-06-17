@@ -1,0 +1,31 @@
+{
+  "name": "deception",
+  "version": "0.0.0",
+  "description": "A simple HTML5 animation lib for browserify",
+  "main": "deception.js",
+  "dependencies": {
+    "raf": "~2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "~3.46.0"
+  },
+  "scripts": {
+    "bundle": "browserify deception.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/accosine/deception.git"
+  },
+  "keywords": [
+    "HTML5",
+    "game",
+    "browser",
+    "mobile",
+    "animation"
+  ],
+  "author": "Simon Bugert and Duncan Kolba",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/accosine/deception/issues"
+  }
+}
